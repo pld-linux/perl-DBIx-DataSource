@@ -7,7 +7,7 @@
 %define	pnam	DataSource
 Summary:	DBIx::DataSource - database-independent create and drop functions
 Summary(pl):	DBIx::DataSource - niezale¿ne od bazy danych funkcje do tworzenia i usuwania
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-DBIx-DataSource
 Version:	0.02
 Release:	4
 # same as perl
