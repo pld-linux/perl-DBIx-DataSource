@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	DBIx
-%define	pnam	DataSource
+%define		pdir	DBIx
+%define		pnam	DataSource
 Summary:	DBIx::DataSource - database-independent create and drop functions
 Summary(pl):	DBIx::DataSource - niezale¿ne od bazy danych funkcje do tworzenia i usuwania
 Name:		perl-DBIx-DataSource
