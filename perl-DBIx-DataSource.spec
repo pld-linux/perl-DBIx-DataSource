@@ -5,7 +5,7 @@ Summary:	DBIx::DataSource -- Database-independant create and drop functions
 Summary(pl):	DBIx::DataSource -- niezale¿ne od bazy danych funkcje do tworzenia i usuwania
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.02
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -19,8 +19,10 @@ This module implements create_database and drop_database functions for
 databases.  It aims to provide a common interface to database creation
 and deletion regardless of the actual database being used.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ jest implementacj± funkcji create_database i drop_database
+dla baz danych. Celem jego jest dostarczenie wspólnego interfejsu do
+tworzenia i usuwania baz danych, niezale¿nego od u¿ywanej bazy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
