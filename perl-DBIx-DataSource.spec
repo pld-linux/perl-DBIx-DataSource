@@ -5,7 +5,7 @@ Summary:	DBIx::DataSource -- Database-independant create and drop functions
 Summary(pl):	DBIx::DataSource -- niezale¿ne od bazy danych funkcje do tworzenia i usuwania
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.02
-Release:	2
+Release:	3
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
