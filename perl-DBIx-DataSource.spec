@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	DataSource
-Summary:	DBIx::DataSource -- Database-independant create and drop functions
-Summary(pl):	DBIx::DataSource -- niezale¿ne od bazy danych funkcje do tworzenia i usuwania
+Summary:	DBIx::DataSource - database-independant create and drop functions
+Summary(pl):	DBIx::DataSource - niezale¿ne od bazy danych funkcje do tworzenia i usuwania
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.02
 Release:	3
